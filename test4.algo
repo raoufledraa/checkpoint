@@ -1,0 +1,11 @@
+ALGORITHM the circumference of the square.
+ VAR
+   x: INTEGER := 4 ;
+   circ: INTEGER ; 
+
+BEGIN
+    circ := x*4
+    write(circ)
+
+
+END

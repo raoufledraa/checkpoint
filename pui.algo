@@ -1,0 +1,22 @@
+ALGORITHM puissance
+VAR
+   t:INTEGER 
+   x,y:INTEGER
+FUNCTION pow(x:INTEGER,y:INTEGER) : INTEGER
+    VAR
+        i:INTEGER
+        result:INTEGER
+    BEGIN
+    result:=1
+        FOR i FROM 1 TO y STEP 1  DO
+            result:=result*x
+        END_FOR
+        RETURN(result)
+    END
+
+BEGIN
+    Read(x)
+    Read(y)
+    t:=pow(x,y)
+        
+END

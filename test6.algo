@@ -1,0 +1,10 @@
+ ALGORITHM circumference of the circle.
+ VAR
+ rad: INTEGER:= 13;
+ p:FLOAT:= 3.14;
+ circ:INTEGER;
+ BEGIN
+ circ := p*2*rad
+ write(circ)
+
+ END 

@@ -1,0 +1,14 @@
+ALGORITHM terf
+VAR
+    i:INTEGER
+    arr: ARRAY_OF INTEGER[60];
+    FUNCTION pow( arr: ARRAY_OF integer[60],t:INTEGER) : INTEGER
+    VAR
+        
+    BEGIN
+        set_instructions
+        RETURN value ;
+    END
+BEGIN
+
+END

@@ -1,0 +1,16 @@
+ALGORITHM graetest number
+VAR
+   x:INTEGER
+   y:INTEGER
+   z:INTEGER
+   BEGIN
+IF (y>x) THEN
+    IF (y>z) THEN
+        write("y is the greatest !")
+    ELSE
+        write(z)
+    END_IF
+ELSE
+IF (conditon) THEN
+    set_instructions
+END_IF

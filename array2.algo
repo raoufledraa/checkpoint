@@ -1,0 +1,17 @@
+ALGORITHM calculate the sum
+VAR
+   i:INTEGER,
+   N : ARRAY_OF INTEGER[7],
+   sum:INTEGER
+   
+   BEGIN
+       Write("Enter Some Values to fill and calculate the Array");
+  FOR i FROM 1 TO N.length STEP 1  DO
+      Read(N[i]);
+  END_FOR
+  sum:= 0
+  FOR i FROM 1 TO 7 STEP 1  DO
+    sum := sum+ N[i]
+  END_FOR
+ write(sum);
+  END

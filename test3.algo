@@ -1,0 +1,8 @@
+ALGORITHM la_somme_de_2_ombres
+VAR
+    a:INTEGER := 6;
+    b:INTEGER := 5;
+
+BEGIN
+    
+END

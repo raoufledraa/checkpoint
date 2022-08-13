@@ -1,0 +1,14 @@
+ALGORITHM changes of sentences
+VAR
+    sntc:STRING [100];
+    t:INTEGER;
+BEGIN
+    sntc:="being gentleman is not way of speaking or a way of dressing,it is simply feeling good about yourself"
+    for i FROM 0 to sntc.length STEP 1 DO
+    IF (sntc[t]="a") THEN
+        sntc[a]=sntc[b]
+    END_IF
+    IF (  sntc[t]="z") THEN
+        sntc[i]=sntc[z]
+    END_IF
+END

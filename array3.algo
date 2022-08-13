@@ -1,0 +1,21 @@
+LGORITHM calculate the sum
+VAR
+  i:INTEGER,
+  N : ARRAY_OF INTEGER[7],
+  rd:INTEGER,
+  
+  BEGIN
+    Write("prints out the specific value");
+    FOR i FROM 1 TO 7 STEP 1  DO
+        Read(N[i]);
+    END_FOR
+
+    Read(rd)
+    
+ 
+    IF (rd > 1 AND rd < 7) THEN
+        write(N[rd])
+    ELSE
+        write("you are out of range")
+    END_IF
+ END

@@ -1,0 +1,11 @@
+ALGORITHM calculate the water bill 
+VAR
+   con:FLOAT :=490.63;
+   unt:FLOAT := 0.89;
+   tax :FLOAT:= 76.6;
+   debt :FLOAT:=1490.56;
+   fac:FLOAT;
+   BEGIN
+   fac=(con*unt)+tax+debt
+   write(fac)
+   END

@@ -1,0 +1,23 @@
+ALGORITHM checkEqualStr
+ VAR  
+    str1: STRING[m]  
+    str2: STRING[n];   
+    i, n, m : INTEGER;
+    check : BOOLEAN;
+    c BEGIN     
+    Read[n, m];
+    Read(str1, str2); 
+    check := TRUE;  
+    str1 := ToLower(str1);  
+    str2 := ToLower(str2);  
+    IF(n == m)THEN  
+     FOR i FROM 1 TO n STEP 1 DO         
+        IF(str1[i] <> str2[i])THEN        
+                check := FALSE        
+            END  
+            END 
+        IF (check = TRUE)THEN 
+            Write("str1 and str2 are Equal");    
+            ELSE     Write("str1 and str2 are not equal");  
+        END 
+    END

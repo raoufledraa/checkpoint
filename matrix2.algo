@@ -1,0 +1,18 @@
+ALGORITHM diagonal 
+VAR
+    M : ARRAY_OF integer[N][M];
+    i:integer,
+    j:integer,
+BEGIN
+     FOR i FROM 0 TO N DO
+        FOR j FROM 0 TO M DO
+        Read(mat[i][j] );
+       END_FOR
+END_FOR
+ FOR i FROM 0 TO N DO
+    FOR j FROM 0 TO M DO
+     IF (i=j) THEN
+        write(M[i][j])
+     END_IF
+    END_FOR
+END

@@ -1,0 +1,13 @@
+ALGORITHM change
+VAR
+   x : INTEGER := 2;
+   y : INTEGER := 3;
+   z : INTEGER:= 4;
+   t : INTEGER;
+BEGIN
+   t:=x;
+   x:=y;
+   y:=z;
+   z:=t;
+
+END

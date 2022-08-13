@@ -1,0 +1,14 @@
+ALGORITHM terr
+VAR
+    i:INTEGER,
+    snt:STRING[150],
+    check:BOOLEAN,
+BEGIN
+    snt:"You ask what is our aim? I can answer in one word: Victory. Victory at all costs. Victory in spite of all terror. Victory however long and hard the road may be."
+    check:=true
+    for i from 1 to snt.length step 1 DO
+     IF (snt[i]=snt[i]) THEN
+        
+        
+     END_IF
+END

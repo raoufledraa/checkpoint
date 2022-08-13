@@ -1,0 +1,17 @@
+ALGORITHM verifaction
+VAR
+   ter : ARRAY_OF INTEGER[8];
+   i :INTEGER;
+   j:INTEGER;k
+   check: BOOLEAN;
+BEGIN
+    Write("Enter Some Values to check if the values are unique");
+    FOR i FROM 1 TO 8 STEP 1  DO
+    Read(ter[i]);
+    END_FOR
+    j:=0
+    FOR i FROM 1 TO 8 STEP 1  DO
+    j := ter[i]
+    END_FOR
+
+END

@@ -1,0 +1,22 @@
+
+ALGORITHM calculWordNum
+VAR
+    str: STRING[];
+    count, countVowel, i: number;
+BEGIN
+    Read(str);
+    count := 0;
+    countVowel:= 0;
+    FOR i FROM 1 TO str.length STEP +1 DO
+    IF (str[i] = " " || str[i] = "." ) THEN
+        count++;
+    ELSE_IF(str[i] = "a" || str[i] = "e" || str[i] = "i" || str[i] = "o" || str[i] = "u") THEN
+        countVowel++
+    END_IF
+        IF (str[i] = " " OR str[i] = "." ) THEN
+            count++;
+        ELSE_IF(str[i] = "a" OR str[i] = "e" OR str[i] = "i" OR str[i] = "o" OR str[i] = "u") THEN
+            countVowel++
+        END_IF
+    Write(count, countVowel);
+END

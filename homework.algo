@@ -1,0 +1,27 @@
+ALGORITHM CommunErrors
+VAR
+   number := INTEGER;
+   name : STRING;
+   FLOAT := FLOAT := 4,67;
+   IF : 89;
+BEGIN
+    number : 8
+    name := "why didn't tou close me";
+    FOR i FROM 2 TO 5 STEP step  DO
+        number = number + 2;
+END
+//we cant put the names of variables as float or if bcs its reserved by the algo//
+ALGORITHM ValuesErrors
+VAR
+   number1 : INTEGER;
+   number2 : INTEGER;
+BEGIN
+   number1 := number2;
+
+
+   FOR i FROM 1 TO 5 STEP 1  DO
+    sum := i
+   END_FOR
+
+END
+// the mistake is THAT we didnt declare the values of the variables number1 and number2 so we canT calcule the sum// 

@@ -1,0 +1,17 @@
+ALGORITHM matrix2
+VAR
+    mat: ARRAY_OF integer [N][M];
+    i:INTEGER
+    j:INTEGER
+
+BEGIN
+    FOR i FROM 0 TO N DO
+       FOR j FROM 0 TO M DO
+        Read(mat[i][j] );
+       END_FOR
+END_FOR
+ FOR i FROM 0 TO N DO
+    FOR j FROM 0 TO M DO
+     write(mat[i][j]);
+    END_FOR
+END

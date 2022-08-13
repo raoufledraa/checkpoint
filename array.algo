@@ -1,0 +1,33 @@
+ALGORITHM check
+VAR
+    tab : ARRAY_OF INTEGER[15]
+    check : BOOLEAN
+    i : INTEGER
+BEGIN
+
+    // Filling The Array with Row Data :
+    Write("Enter Some Values to fill the Array");
+    FOR i FROM 1 TO tab.length STEP 1  DO
+        Read(tab[i]);
+    END_FOR
+
+
+    // Checking :
+    // We will assume that the there is no value that is negative or zero. After that, we will verify each value of the array using the for loop, if there is only one that is negative or null, then we will save that
+    check := true;
+    FOR i FROM 1 TO tab.length STEP 1  DO
+        IF (tab[i] <= 0) THEN
+            check := false;
+        END_IF
+    END_FOR
+
+    // Priting Output
+    IF (check = true) THEN
+        Write("There is no value that is negative or null, the Array is Clean !");
+    ELSE
+        Write("One or Many Values negative or null detected !");
+    END_IF
+END
+
+
+

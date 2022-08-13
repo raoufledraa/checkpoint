@@ -1,0 +1,30 @@
+ALGORITHM minExtracting
+VAR
+   arr : ARRAY_OF integer[100];
+   i,len;min : INTEGER;
+BEGIN
+    write("give me the array lenght");
+    Read(len);
+    WHILE (len>100) DO
+        write("give me a correct array lenght !");
+        Read(len)
+    END_WHILE
+
+    FOR i FROM 1 TO len STEP 1 DO
+        Read(arr[i])
+        // arr[i] :=  arr[i - 1] + 2;
+    END_FOR
+
+    // Traitement
+    min := arr[1]
+    FOR i FROM 1 TO arr.length STEP 1  DO
+        IF (arr[i] < min) THEN
+            min := arr[i];
+        END_IF
+    END_FOR
+
+    //Writing
+    Write("The minimum is : ", min)
+
+    
+END

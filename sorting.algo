@@ -1,0 +1,14 @@
+ALGORITHM sorting
+VAR
+    arr : ARRAY_OF integer[12];
+    i:INTEGER
+BEGIN
+    Write("Enter Some Values to .......");
+    FOR i FROM 1 TO 12 STEP 1  DO
+    Read(arr[i]);
+    END_FOR
+
+    WHILE ( ) DO
+        set_instructions
+    END_WHILE
+END

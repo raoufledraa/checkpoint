@@ -1,0 +1,31 @@
+ALGORITHM trying
+VAR
+    m:ITEGER 
+
+FUNCTION addd(x:integer,y:integer) : INTEGER
+VAR
+    sum:INTEGER
+BEGIN
+    sum:x+Y
+    RETURN sum;
+END
+
+FUNCTION mult (x:integer,y:integer) : INTEGER
+VAR
+    m:INTEGER
+BEGIN
+   m:=x*y
+    RETURN m;
+END
+FUNCTION div(x:integer,y:integer) : flout
+VAR
+    d:integer
+BEGIN
+    d:=x/y
+    RETURN d;
+END
+
+
+BEGIN
+n:=div(mult(add(123,345),89),5)
+END

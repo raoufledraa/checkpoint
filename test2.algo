@@ -1,0 +1,13 @@
+ALGORITHM multiplication
+VAR
+ x:INTEGER :=4;
+ y: INTEGER :=7;
+ mult:INTEGER
+
+ BEGIN
+  mult=0;
+    for i from 1 to 4 step 7 do
+    mult=mult+7;
+  
+   
+  END

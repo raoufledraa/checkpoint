@@ -1,0 +1,22 @@
+ALGORITHM calcact
+VAR
+    n,c,k:integer
+
+FUNCTION FACT(x:INTEGER) :INTEGER
+VAR
+       i:INTEGER
+       act:INTEGER
+BEGIN
+    act:=1
+    i:=1
+    WHILE (i<=x) DO
+    act:=act*i
+    i:=i+1
+    END_WHILE
+    RETURN act ;
+END    
+BEGIN
+    Read(n)
+    Read(k)
+    c:=FACT(n+k-1)/FACT(k)*FACT(n-1)
+END

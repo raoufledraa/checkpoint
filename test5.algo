@@ -1,0 +1,12 @@
+ALGORITHM the circumference of the triangle
+ VAR
+    side1:INTEGER := 9;
+    thebase:INTEGER :=7;
+    sum :INTEGER
+
+    BEGIN
+    sum:= thebase + (side1*2)
+    write(sum)
+    END
+
+

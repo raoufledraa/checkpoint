@@ -1,0 +1,15 @@
+ ALGORITHM the grades of the student 
+ VAR    
+ grade:INTEGER:=2 ;
+ p:=INTEGER;=1;
+ t:INTEGER;
+ BEGIN
+
+   FOR i FROM 1 TO 12 STEP 1  DO
+      t:= p*3
+    write(grade)
+    grade:= grade+t
+     
+   END_FOR
+   write(grade)
+   END

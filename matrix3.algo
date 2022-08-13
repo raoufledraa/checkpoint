@@ -1,0 +1,17 @@
+ALGORITHM challange19
+VAR
+chess : ARRAY_OF integer [N][M];
+i,j:INTEGER,
+BEGIN
+    FOR i FROM 0 TO N DO
+       FOR j FROM 0 TO M DO
+        Read(mat[i][j] );
+       END_FOR
+END_FOR
+ FOR i FROM 1 TO N DO
+    FOR j FROM 1 TO M DO
+     IF (chess) THEN
+        set_instructions
+     END_IF;
+    END_FOR
+END    
